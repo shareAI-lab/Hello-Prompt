@@ -14,7 +14,7 @@ final class TranscriptionService: @unchecked Sendable {
     init() {
         Logger.shared.info("Initializing TranscriptionService", category: "TranscriptionService")
         
-        let apiKey = "YOUR_API_KEY"
+        let apiKey = ProcessInfo.processInfo.environment["OPENAI_API_KEY"] ?? "YOUR_API_KEY"
         if apiKey == "YOUR_API_KEY" {
             Logger.shared.error("⚠️ CRITICAL: OpenAI API key not set! Replace 'YOUR_API_KEY' with your actual key", category: "TranscriptionService")
             Logger.shared.error("💡 This will cause 401 errors when trying to transcribe", category: "TranscriptionService")
