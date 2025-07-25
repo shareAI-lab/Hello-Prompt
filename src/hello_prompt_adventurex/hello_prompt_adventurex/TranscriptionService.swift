@@ -2,7 +2,7 @@ import AVFoundation
 import OpenAI
 import Foundation
 
-final class TranscriptionService {
+final class TranscriptionService: @unchecked Sendable {
     private let openAI: OpenAI
     
     private var audioEngine: AVAudioEngine?
@@ -12,6 +12,8 @@ final class TranscriptionService {
     private var recordingCompletion: ((String?) -> Void)?
     
     init() {
+        // TODO: Replace with your actual OpenAI API key
+        // Consider using Bundle.main.object(forInfoDictionaryKey: "OPENAI_API_KEY") or similar
         self.openAI = OpenAI(apiToken: "YOUR_API_KEY")
     }
     
