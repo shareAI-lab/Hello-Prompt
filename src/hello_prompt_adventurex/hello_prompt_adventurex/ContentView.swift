@@ -43,20 +43,42 @@ struct ContentView: View {
         .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
         .onAppear {
             Logger.shared.info("ContentView appeared", category: "UI")
-            viewModel.startListening()
+            
+            // Safety check to prevent crashes
+            guard !viewModel.isListening else {
+                Logger.shared.warning("Already listening when ContentView appeared - skipping start", category: "UI")
+                return
+            }
+            
+            // Add a small delay to ensure the view is fully loaded
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+                Logger.shared.debug("Starting voice recording after view setup", category: "UI")
+                viewModel.startListening()
+            }
         }
         .onDisappear {
             Logger.shared.info("ContentView disappeared", category: "UI")
+            
+            // Safety check before stopping
             if viewModel.isListening {
+                Logger.shared.debug("Stopping recording because view disappeared", category: "UI")
                 viewModel.stopListening()
+            } else {
+                Logger.shared.debug("Not listening when view disappeared - no action needed", category: "UI")
             }
         }
         .onKeyPress(.space) {
+            Logger.shared.debug("Spacebar pressed", category: "UI")
+            
+            // Safety check and detailed logging
             if viewModel.isListening {
+                Logger.shared.info("User pressed spacebar to stop recording", category: "UI")
                 viewModel.stopListening()
                 return .handled
+            } else {
+                Logger.shared.debug("Spacebar pressed but not listening - ignoring", category: "UI")
+                return .ignored
             }
-            return .ignored
         }
     }
 }

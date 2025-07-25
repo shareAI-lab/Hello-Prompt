@@ -413,7 +413,8 @@
 				DEVELOPMENT_TEAM = TL48P8AM2N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hello_prompt_adventurex/Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "hello_prompt_adventurex needs to access your microphone to transcribe your voice.";
@@ -442,7 +443,8 @@
 				DEVELOPMENT_TEAM = TL48P8AM2N;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "hello_prompt_adventurex/Info.plist";
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "hello_prompt_adventurex needs to access your microphone to transcribe your voice.";
