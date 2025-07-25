@@ -6,13 +6,33 @@
 //
 
 import SwiftUI
+import HotKey
 
 @main
 struct hello_prompt_adventurexApp: App {
+    @StateObject private var viewModel = AppViewModel()
+    @Environment(\.openWindow) private var openWindow
+    private var hotKey: HotKey?
+    
     var body: some Scene {
-        MenuBarExtra("hello_prompt_adventurex", systemImage: "mic.fill") {
-            ContentView()
+        Window("hello_prompt_adventurex", id: "hello_prompt_adventurex-window") {
+            hello_prompt_adventurexWindow()
+                .environmentObject(viewModel)
         }
-        .menuBarExtraStyle(.window)
+        .windowStyle(.hiddenTitleBar)
+        .defaultSize(width: 300, height: 350)
+        .windowResizability(.contentSize)
+        .onAppear {
+            hotKey = HotKey(key: .v, modifiers: [.command, .shift])
+            hotKey?.keyDownHandler = {
+                openWindow(id: "hello_prompt_adventurex-window")
+            }
+        }
+        
+        MenuBarExtra("hello_prompt_adventurex", systemImage: "mic.fill") {
+            Button("Quit hello_prompt_adventurex") {
+                NSApplication.shared.terminate(nil)
+            }
+        }
     }
 }

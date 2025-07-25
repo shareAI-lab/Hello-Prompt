@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject private var viewModel = AppViewModel()
+    @EnvironmentObject var viewModel: AppViewModel
     @State private var isAnimating = false
     
     var body: some View {
@@ -44,4 +44,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(AppViewModel())
 }
