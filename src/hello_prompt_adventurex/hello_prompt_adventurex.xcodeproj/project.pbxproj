@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A6050C6E2E33717900D0F688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6050C542E33717800D0F688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6050C5B2E33717800D0F688;
+			remoteInfo = hello_prompt_adventurex;
+		};
+		A6050C782E33717900D0F688 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6050C542E33717800D0F688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6050C5B2E33717800D0F688;
+			remoteInfo = hello_prompt_adventurex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6050C5C2E33717800D0F688 /* hello_prompt_adventurex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello_prompt_adventurex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6050C6D2E33717900D0F688 /* hello_prompt_adventurexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hello_prompt_adventurexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6050C772E33717900D0F688 /* hello_prompt_adventurexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hello_prompt_adventurexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A6050C5E2E33717800D0F688 /* hello_prompt_adventurex */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hello_prompt_adventurex;
+			sourceTree = "<group>";
+		};
+		A6050C702E33717900D0F688 /* hello_prompt_adventurexTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hello_prompt_adventurexTests;
+			sourceTree = "<group>";
+		};
+		A6050C7A2E33717900D0F688 /* hello_prompt_adventurexUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = hello_prompt_adventurexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6050C592E33717800D0F688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6050C6A2E33717900D0F688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6050C742E33717900D0F688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6050C532E33717800D0F688 = {
+			isa = PBXGroup;
+			children = (
+				A6050C5E2E33717800D0F688 /* hello_prompt_adventurex */,
+				A6050C702E33717900D0F688 /* hello_prompt_adventurexTests */,
+				A6050C7A2E33717900D0F688 /* hello_prompt_adventurexUITests */,
+				A6050C5D2E33717800D0F688 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6050C5D2E33717800D0F688 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6050C5C2E33717800D0F688 /* hello_prompt_adventurex.app */,
+				A6050C6D2E33717900D0F688 /* hello_prompt_adventurexTests.xctest */,
+				A6050C772E33717900D0F688 /* hello_prompt_adventurexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6050C5B2E33717800D0F688 /* hello_prompt_adventurex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6050C812E33717900D0F688 /* Build configuration list for PBXNativeTarget "hello_prompt_adventurex" */;
+			buildPhases = (
+				A6050C582E33717800D0F688 /* Sources */,
+				A6050C592E33717800D0F688 /* Frameworks */,
+				A6050C5A2E33717800D0F688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A6050C5E2E33717800D0F688 /* hello_prompt_adventurex */,
+			);
+			name = hello_prompt_adventurex;
+			packageProductDependencies = (
+			);
+			productName = hello_prompt_adventurex;
+			productReference = A6050C5C2E33717800D0F688 /* hello_prompt_adventurex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6050C6C2E33717900D0F688 /* hello_prompt_adventurexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6050C842E33717900D0F688 /* Build configuration list for PBXNativeTarget "hello_prompt_adventurexTests" */;
+			buildPhases = (
+				A6050C692E33717900D0F688 /* Sources */,
+				A6050C6A2E33717900D0F688 /* Frameworks */,
+				A6050C6B2E33717900D0F688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6050C6F2E33717900D0F688 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A6050C702E33717900D0F688 /* hello_prompt_adventurexTests */,
+			);
+			name = hello_prompt_adventurexTests;
+			packageProductDependencies = (
+			);
+			productName = hello_prompt_adventurexTests;
+			productReference = A6050C6D2E33717900D0F688 /* hello_prompt_adventurexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6050C762E33717900D0F688 /* hello_prompt_adventurexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6050C872E33717900D0F688 /* Build configuration list for PBXNativeTarget "hello_prompt_adventurexUITests" */;
+			buildPhases = (
+				A6050C732E33717900D0F688 /* Sources */,
+				A6050C742E33717900D0F688 /* Frameworks */,
+				A6050C752E33717900D0F688 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6050C792E33717900D0F688 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A6050C7A2E33717900D0F688 /* hello_prompt_adventurexUITests */,
+			);
+			name = hello_prompt_adventurexUITests;
+			packageProductDependencies = (
+			);
+			productName = hello_prompt_adventurexUITests;
+			productReference = A6050C772E33717900D0F688 /* hello_prompt_adventurexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6050C542E33717800D0F688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					A6050C5B2E33717800D0F688 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A6050C6C2E33717900D0F688 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A6050C5B2E33717800D0F688;
+					};
+					A6050C762E33717900D0F688 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A6050C5B2E33717800D0F688;
+					};
+				};
+			};
+			buildConfigurationList = A6050C572E33717800D0F688 /* Build configuration list for PBXProject "hello_prompt_adventurex" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6050C532E33717800D0F688;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A6050C5D2E33717800D0F688 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6050C5B2E33717800D0F688 /* hello_prompt_adventurex */,
+				A6050C6C2E33717900D0F688 /* hello_prompt_adventurexTests */,
+				A6050C762E33717900D0F688 /* hello_prompt_adventurexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6050C5A2E33717800D0F688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6050C6B2E33717900D0F688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6050C752E33717900D0F688 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6050C582E33717800D0F688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6050C692E33717900D0F688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6050C732E33717900D0F688 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6050C6F2E33717900D0F688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6050C5B2E33717800D0F688 /* hello_prompt_adventurex */;
+			targetProxy = A6050C6E2E33717900D0F688 /* PBXContainerItemProxy */;
+		};
+		A6050C792E33717900D0F688 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6050C5B2E33717800D0F688 /* hello_prompt_adventurex */;
+			targetProxy = A6050C782E33717900D0F688 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6050C7F2E33717900D0F688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6050C802E33717900D0F688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A6050C822E33717900D0F688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hello_prompt_adventurex/hello_prompt_adventurex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hello_prompt_adventurex/Preview Content\"";
+				DEVELOPMENT_TEAM = TL48P8AM2N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.hello-prompt-adventurex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A6050C832E33717900D0F688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hello_prompt_adventurex/hello_prompt_adventurex.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hello_prompt_adventurex/Preview Content\"";
+				DEVELOPMENT_TEAM = TL48P8AM2N;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.hello-prompt-adventurex";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A6050C852E33717900D0F688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL48P8AM2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.hello-prompt-adventurexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello_prompt_adventurex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hello_prompt_adventurex";
+			};
+			name = Debug;
+		};
+		A6050C862E33717900D0F688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL48P8AM2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.hello-prompt-adventurexTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello_prompt_adventurex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hello_prompt_adventurex";
+			};
+			name = Release;
+		};
+		A6050C882E33717900D0F688 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL48P8AM2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.hello-prompt-adventurexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = hello_prompt_adventurex;
+			};
+			name = Debug;
+		};
+		A6050C892E33717900D0F688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL48P8AM2N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.hello-prompt-adventurexUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = hello_prompt_adventurex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6050C572E33717800D0F688 /* Build configuration list for PBXProject "hello_prompt_adventurex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6050C7F2E33717900D0F688 /* Debug */,
+				A6050C802E33717900D0F688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6050C812E33717900D0F688 /* Build configuration list for PBXNativeTarget "hello_prompt_adventurex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6050C822E33717900D0F688 /* Debug */,
+				A6050C832E33717900D0F688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6050C842E33717900D0F688 /* Build configuration list for PBXNativeTarget "hello_prompt_adventurexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6050C852E33717900D0F688 /* Debug */,
+				A6050C862E33717900D0F688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6050C872E33717900D0F688 /* Build configuration list for PBXNativeTarget "hello_prompt_adventurexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6050C882E33717900D0F688 /* Debug */,
+				A6050C892E33717900D0F688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6050C542E33717800D0F688 /* Project object */;
+}
