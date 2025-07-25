@@ -8,14 +8,37 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var viewModel = AppViewModel()
+    @State private var isAnimating = false
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            if viewModel.isListening {
+                Circle()
+                    .fill(.blue)
+                    .frame(width: 100, height: 100)
+                    .scaleEffect(isAnimating ? 1.2 : 1.0)
+                    .animation(.easeInOut(duration: 1.0).repeatForever(autoreverses: true), value: isAnimating)
+                    .onAppear {
+                        isAnimating = true
+                    }
+                    .onDisappear {
+                        isAnimating = false
+                    }
+                
+                Text("Listening...")
+                    .font(.headline)
+                    .padding(.top, 8)
+            } else {
+                ScrollView {
+                    Text(viewModel.transcribedText.isEmpty ? "Press Shift+Command+V to start." : viewModel.transcribedText)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding()
+                }
+            }
         }
-        .padding()
+        .frame(width: 300, height: 350)
+        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
     }
 }
 
