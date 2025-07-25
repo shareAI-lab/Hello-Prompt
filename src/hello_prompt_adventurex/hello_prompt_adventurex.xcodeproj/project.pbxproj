@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A6050C9E2E33892500D0F688 /* HotKey in Frameworks */ = {isa = PBXBuildFile; productRef = A6050C9D2E33892500D0F688 /* HotKey */; };
+		A6050CA52E338B8800D0F688 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = A6050CA42E338B8800D0F688 /* OpenAI */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A6050C6E2E33717900D0F688 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6050CA52E338B8800D0F688 /* OpenAI in Frameworks */,
+				A6050C9E2E33892500D0F688 /* HotKey in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +119,8 @@
 			);
 			name = hello_prompt_adventurex;
 			packageProductDependencies = (
+				A6050C9D2E33892500D0F688 /* HotKey */,
+				A6050CA42E338B8800D0F688 /* OpenAI */,
 			);
 			productName = hello_prompt_adventurex;
 			productReference = A6050C5C2E33717800D0F688 /* hello_prompt_adventurex.app */;
@@ -195,6 +204,10 @@
 			);
 			mainGroup = A6050C532E33717800D0F688;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A6050C9C2E33892500D0F688 /* XCRemoteSwiftPackageReference "HotKey" */,
+				A6050CA32E338B8800D0F688 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A6050C5D2E33717800D0F688 /* Products */;
 			projectDirPath = "";
@@ -551,6 +564,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A6050C9C2E33892500D0F688 /* XCRemoteSwiftPackageReference "HotKey" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/soffes/HotKey";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		A6050CA32E338B8800D0F688 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A6050C9D2E33892500D0F688 /* HotKey */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6050C9C2E33892500D0F688 /* XCRemoteSwiftPackageReference "HotKey" */;
+			productName = HotKey;
+		};
+		A6050CA42E338B8800D0F688 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A6050CA32E338B8800D0F688 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A6050C542E33717800D0F688 /* Project object */;
 }

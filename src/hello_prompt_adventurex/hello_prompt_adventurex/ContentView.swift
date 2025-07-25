@@ -20,9 +20,11 @@ struct ContentView: View {
                     .scaleEffect(isAnimating ? 1.2 : 1.0)
                     .animation(.easeInOut(duration: 1.0).repeatForever(autoreverses: true), value: isAnimating)
                     .onAppear {
+                        Logger.shared.debug("Listening animation started", category: "UI")
                         isAnimating = true
                     }
                     .onDisappear {
+                        Logger.shared.debug("Listening animation stopped", category: "UI")
                         isAnimating = false
                     }
                 
@@ -39,6 +41,9 @@ struct ContentView: View {
         }
         .frame(width: 300, height: 350)
         .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
+        .onAppear {
+            Logger.shared.info("ContentView appeared", category: "UI")
+        }
     }
 }
 
