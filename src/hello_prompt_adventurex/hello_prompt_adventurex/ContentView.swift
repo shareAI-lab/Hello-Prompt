@@ -43,6 +43,20 @@ struct ContentView: View {
         .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 12))
         .onAppear {
             Logger.shared.info("ContentView appeared", category: "UI")
+            viewModel.startListening()
+        }
+        .onDisappear {
+            Logger.shared.info("ContentView disappeared", category: "UI")
+            if viewModel.isListening {
+                viewModel.stopListening()
+            }
+        }
+        .onKeyPress(.space) {
+            if viewModel.isListening {
+                viewModel.stopListening()
+                return .handled
+            }
+            return .ignored
         }
     }
 }

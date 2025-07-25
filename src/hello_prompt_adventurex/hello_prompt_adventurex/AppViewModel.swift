@@ -3,6 +3,7 @@ import HotKey
 
 final class AppViewModel: ObservableObject {
     private var hotKey: HotKey?
+    private let transcriptionService = TranscriptionService()
     
     enum AppState {
         case idle
@@ -44,11 +45,25 @@ final class AppViewModel: ObservableObject {
     func startListening() {
         Logger.shared.info("Starting voice recording", category: "AppViewModel")
         appState = .listening
+        transcribedText = ""
+        
+        transcriptionService.startRecording { [weak self] transcribedText in
+            DispatchQueue.main.async {
+                if let text = transcribedText {
+                    self?.transcribedText = text
+                    Logger.shared.info("Transcription completed successfully", category: "AppViewModel")
+                } else {
+                    self?.transcribedText = "Error transcribing."
+                    Logger.shared.error("Transcription failed", category: "AppViewModel")
+                }
+                self?.appState = .idle
+            }
+        }
     }
     
     func stopListening() {
         Logger.shared.info("Stopping voice recording", category: "AppViewModel")
-        appState = .idle
+        transcriptionService.stopRecording()
     }
     
     func startTranscribing() {
