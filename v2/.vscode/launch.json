@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Hello-Prompt}",
+            "name": "Debug HelloPrompt",
+            "program": "${workspaceFolder:Hello-Prompt}/.build/debug/HelloPrompt",
+            "preLaunchTask": "swift: Build Debug HelloPrompt"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Hello-Prompt}",
+            "name": "Release HelloPrompt",
+            "program": "${workspaceFolder:Hello-Prompt}/.build/release/HelloPrompt",
+            "preLaunchTask": "swift: Build Release HelloPrompt"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Hello-Prompt}",
+            "name": "Debug HelloPromptV2",
+            "program": "${workspaceFolder:Hello-Prompt}/.build/debug/HelloPromptV2",
+            "preLaunchTask": "swift: Build Debug HelloPromptV2"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Hello-Prompt}",
+            "name": "Release HelloPromptV2",
+            "program": "${workspaceFolder:Hello-Prompt}/.build/release/HelloPromptV2",
+            "preLaunchTask": "swift: Build Release HelloPromptV2"
+        }
+    ]
+}
