@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>zh_CN</string>
+    <key>CFBundleExecutable</key>
+    <string>HelloPrompt</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.helloprompt.app</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Hello Prompt</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>LSUIElement</key>
+    <false/>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>Hello Prompt 需要访问麦克风来录制语音，以便进行语音识别和AI提示词优化。</string>
+    <key>NSAppleEventsUsageDescription</key>
+    <string>Hello Prompt 需要发送 Apple Events 来与其他应用程序交互，实现文本插入功能。</string>
+    <key>NSSystemAdministrationUsageDescription</key>
+    <string>Hello Prompt 需要系统管理权限来注册全局快捷键和实现跨应用文本插入。</string>
+    <key>NSInputMonitoringUsageDescription</key>
+    <string>Hello Prompt 需要输入监控权限来注册全局快捷键 Ctrl+U，以便您可以在任何应用中快速启动语音录制功能。</string>
+</dict>
+</plist>
